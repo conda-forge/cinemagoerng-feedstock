@@ -1,5 +1,5 @@
 {% set name = "cinemagoerng" %}
-{% set version = "0.4" %}
+{% set version = "0.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cinemagoer/cinemagoerng/archive/v{{ version }}.tar.gz
-  sha256: 44e90d7c13e6bbcef81ed3ba1125228d8b7e5aede12e007d7b0ce967daa88018
+  sha256: f86084cfa14ac006f0c5d5ca0ec89be0f05776e824c9614af7a32c8e9402b176
 
 build:
   entry_points:
