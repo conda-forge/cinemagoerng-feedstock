@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/cinemagoerng-fe
 
 Home: https://github.com/cinemagoer/cinemagoerng
 
-Package license: GPL-2.0-or-later
+Package license: LGPL-3.0-only
 
 Summary: Retrieve data from the IMDb.
 
