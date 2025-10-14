@@ -23,9 +23,9 @@ requirements:
     - pip
   run:
     - python >={{ python_min }},<4.dev0
-    - typedload
-    - lxml
-    - jmespath
+    - typedload >=2.38,<3.dev0
+    - lxml >=5.4.0,<5.5.dev0
+    - jmespath >=1.0.1,<1.1.dev0
 
 test:
   imports:
@@ -39,7 +39,7 @@ test:
 
 about:
   summary: Retrieve data from the IMDb.
-  license: GPL-2.0-or-later
+  license: LGPL-3.0-only
   license_file: LICENSE.txt
   dev_url: https://github.com/cinemagoer/cinemagoerng
   home: https://github.com/cinemagoer/cinemagoerng
