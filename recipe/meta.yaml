@@ -21,6 +21,7 @@ requirements:
     - python {{ python_min }}
     - setuptools
     - pip
+    - uv-build
   run:
     - python >={{ python_min }},<4.dev0
     - typedload >=2.38,<3.dev0
