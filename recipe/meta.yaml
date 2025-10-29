@@ -24,7 +24,7 @@ requirements:
     - uv-build
   run:
     - python >={{ python_min }},<4.dev0
-    - typedload >=2.38,<3.dev0
+    - typedload >=2.39,<3.dev0
     - lxml >=5.4.0,<5.5.dev0
     - jmespath >=1.0.1,<1.1.dev0
 
