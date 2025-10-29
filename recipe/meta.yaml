@@ -1,5 +1,5 @@
 {% set name = "cinemagoerng" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/cinemagoer/cinemagoerng/archive/v{{ version }}.tar.gz
-  sha256: f86084cfa14ac006f0c5d5ca0ec89be0f05776e824c9614af7a32c8e9402b176
+  sha256: 21bc11248b43d8328d5a44860e7b0e4312d8635e974e8d23acc0cd672cdda314
 
 build:
   entry_points:
@@ -24,7 +24,7 @@ requirements:
     - uv-build
   run:
     - python >={{ python_min }},<4.dev0
-    - typedload >=2.38,<3.dev0
+    - typedload >=2.39,<3.dev0
     - lxml >=5.4.0,<5.5.dev0
     - jmespath >=1.0.1,<1.1.dev0
 
